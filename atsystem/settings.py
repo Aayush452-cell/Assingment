@@ -83,7 +83,6 @@ DATABASES = {
         'NAME': 'classroom',
         'USER': 'root',
         'HOST':'localhost',
-        'PORT':'',
     }
 }
 
@@ -132,4 +131,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'classroom.User'
-DATABASES['default']=dj_database_url.config()
