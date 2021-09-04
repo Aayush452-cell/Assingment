@@ -81,7 +81,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'classroom',
-        'USER': 'root',
+        'USER': 'b879567bf8ba83',
+        'PASSWORD': '08c53897',
         'HOST':'atssystem.herokuapp.com',
     }
 }
