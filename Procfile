@@ -1,1 +1,1 @@
-web: gunicorn classroom.wsgi
+web: gunicorn atsystem.wsgi
