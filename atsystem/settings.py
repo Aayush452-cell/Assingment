@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'classroom',
         'USER': 'root',
-        'HOST':'localhost',
+        'HOST':'atssystem.herokuapp.com',
     }
 }
 
