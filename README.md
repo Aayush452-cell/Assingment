@@ -25,12 +25,14 @@
 
 # Credentials to look demo
   Student Username - Nitish 
+  
   Student Password - Nitish123
  
   Teacher Username - Saket 
   Teacher Password - Saket123
    
   Admin Username - Aayush
+  
   Admin Password - root
  
  # Steps to run on local machine for demo
