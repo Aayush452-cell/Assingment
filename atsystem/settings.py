@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wwjh44y_kbsj!=qj%nr86*@4zeir+#0xsbptb$aw0)z1twj_ot
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['atsystem.herokuapp.com']
 
 
 # Application definition
@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'classroom',
         'USER': 'root',
-        'HOST':'localhost',
+        'HOST':'atsystem.herokuapp.com',
         'PORT':'3306',
     }
 }
@@ -123,6 +123,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
