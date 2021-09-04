@@ -23,6 +23,16 @@
 2) I failed to depoly it on Heroku because i didn't find any resources regarding deployment of sql with django on heroku. So improvement can be made in this.
 3) We can make code format more better by using Django Templating as it was not such big project so i didn't go for it
 
+# Credtenials to look demo
+  Student Username - Nitish 
+  Student Password - Nitish123
+ 
+  Teacher Username - Saket 
+  Teacher Password - Saket123
+   
+  Admin Username - Aayush
+  Admin Password - root
+
 Before running the project, run these commands,
 
 1) pip install -r requirements.txt
