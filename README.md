@@ -2,8 +2,10 @@
 
 # Features
 1)Admin can create classes , Departments, Create Account for teachers and students .
+
 2)Admin controls the attendance for teachers i.e. can approve or disacrd attendance.
 3)Admin provides the account id or password to teachers and accounts.
+
 4)Teachers can check their profile and no of attendaces for current month and can controls the attendance for students of their department i.e. can approve or disacrd attendance
   and can give their attendance.
 5)Admins can check the list of students and teachers details on its dashboard.
