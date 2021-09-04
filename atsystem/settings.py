@@ -81,8 +81,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'classroom',
         'USER': 'root',
-        'HOST':'atssystem.herokuapp.com',
-        #'PORT':'3306',
+        'HOST':'localhost',
+        'PORT':'',
     }
 }
 
@@ -131,3 +131,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'classroom.User'
+
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
