@@ -42,7 +42,8 @@
 
     </main>
     <div class="container">
-        {% for teacher in teachers %}
+    <h3>Faculty List</h3>
+        {% for teacher in Teachers %}
             <div class="card">
                 <div class="card-header">
                     Featured
@@ -50,11 +51,26 @@
                 <div class="card-body">
                     <h5 class="card-title text-dark">Details</h5>
                     <p class="card-text text-dark">Name of Fcaulty:{{ teacher.name }}</p>
-                    <p class="card-text text-dark">Date of Attendance:{{ teacher.date }}</p>
-                    <p class="card-text text-dark">Email:{{ teacher.email }}</p>
-                    <a href="/classroom/approve/{{ teacher.reg_id }}" class="btn btn-success"
-                       id="{{ forloop.counter }}">Approve</a>
-                    <a href="/classroom/discard/{{ teacher.reg_id }}" class="btn btn-danger" id="{{ forloop.counter }}">Discard</a>
+                     <p class="card-text text-dark">Attendance of Fcaulty:{{ teacher.attendance }}</p>
+                    <p class="card-text text-dark">Dept:{{ teacher.dept }}</p>
+                    <p class="card-text text-dark">Reg_id:{{ teacher.id }}</p>
+                    <p class="card-text text-dark">Email:{{ teacher.user.email }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    <h3>Students List</h3>
+        {% for student in Students %}
+            <div class="card">
+                <div class="card-header">
+                    Featured
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Details</h5>
+                    <p class="card-text text-dark">Name of Fcaulty:{{ student.name }}</p>
+                     <p class="card-text text-dark">Attendance of Fcaulty:{{ student.attendance }}</p>
+                    <p class="card-text text-dark">Dept:{{ student.dept }}</p>
+                    <p class="card-text text-dark">Enrol_id:{{ student.enrol_no }}</p>
+                    <p class="card-text text-dark">Email:{{ student.user.email }}</p>
                 </div>
             </div>
         {% endfor %}
