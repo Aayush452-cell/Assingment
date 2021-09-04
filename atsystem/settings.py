@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'atsystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'classroom',
+        'NAME': 'heroku_c1b924ff9d6b125',
         'USER': 'b879567bf8ba83',
         'PASSWORD': '08c53897',
         'HOST':'atssystem.herokuapp.com',
