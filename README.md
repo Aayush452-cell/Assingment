@@ -21,6 +21,7 @@
 # Further Improvments.
 1) We can make system more robust by arranging the attendance class wise and department wise.
 2) I failed to depoly it on Heroku because i didn't find any resources regarding deployment of sql with django on heroku. So improvement can be made in this.
+3) We can make code format more better by using Django Templating as it was not such big project so i didn't go for it
 
 ![image](https://user-images.githubusercontent.com/68737300/132103269-145547c8-2a99-4fac-aaf7-f2541faec13e.png)
 ![image](https://user-images.githubusercontent.com/68737300/132103023-420cb979-4d07-4952-b059-58f3ef945fae.png)
