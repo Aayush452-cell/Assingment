@@ -22,7 +22,7 @@
 1) We can make system more robust by arranging the attendance class wise and department wise.
 2) I failed to depoly it on Heroku because i didn't find any resources regarding deployment of sql with django on heroku. So improvement can be made in this.
 
-![image](https://user-images.githubusercontent.com/68737300/132103002-7dc358b3-8a1b-4658-944a-01b2b1b5fe06.png)
+![image](https://user-images.githubusercontent.com/68737300/132103269-145547c8-2a99-4fac-aaf7-f2541faec13e.png)
 ![image](https://user-images.githubusercontent.com/68737300/132103023-420cb979-4d07-4952-b059-58f3ef945fae.png)
 ![image](https://user-images.githubusercontent.com/68737300/132103084-5cc6c1b6-d1b9-4ac8-a45c-dd527770531c.png)
 ![image](https://user-images.githubusercontent.com/68737300/132103108-eaa6f8cd-4891-4950-838a-2fb29da14d2e.png)
