@@ -32,6 +32,7 @@ Before running the project, run these commands,
 6) python manage.py migrate
 7) python manage.py runserver
 
+## ScreenShots of project
 ![image](https://user-images.githubusercontent.com/68737300/132103269-145547c8-2a99-4fac-aaf7-f2541faec13e.png)
 ![image](https://user-images.githubusercontent.com/68737300/132103023-420cb979-4d07-4952-b059-58f3ef945fae.png)
 ![image](https://user-images.githubusercontent.com/68737300/132103084-5cc6c1b6-d1b9-4ac8-a45c-dd527770531c.png)
