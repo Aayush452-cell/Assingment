@@ -15,4 +15,5 @@ urlpatterns = [
     path('approve/<str:id>',views.approve,name="approve"),
     path('discard/<str:id>',views.discard,name="discard"),
     path('logout/', views.handelLogout, name="handleLogout"),
+    path('dashboard/',views.dashboard,name="dashboard"),
 ]

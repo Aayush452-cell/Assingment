@@ -228,3 +228,14 @@ def approve(request, id):
         return redirect('pendingstudentattendance')
     else:
         return redirect('pendingteacherattendance')
+
+def dashboard(request):
+    if request.user.is_anonymous:
+        return render(request, "classroom/signup.html")
+    if request.user.is_teacher or request.user.is_student:
+        return render(request, 'classroom/signup.html')
+    else:
+        Teachers = Teacher.objects.all()
+        Students = Student.objects.all()
+        params = {'Teachers': Teachers, 'Students': Students}
+        return render(request, 'classroom/dashboard.html', params)
