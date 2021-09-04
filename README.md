@@ -1,4 +1,4 @@
-# Attendance Management Sytem for Student And Teachers.
+# Attendance Management System for Student And Teachers.
 
 # Features
 1)Admin can create classes , Departments, Create Account for teachers and students .
