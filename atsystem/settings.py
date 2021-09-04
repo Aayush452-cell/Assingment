@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wwjh44y_kbsj!=qj%nr86*@4zeir+#0xsbptb$aw0)z1twj_ot
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['atsystem.herokuapp.com']
+ALLOWED_HOSTS = ['atssystem.herokuapp.com']
 
 
 # Application definition
@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'classroom',
         'USER': 'root',
-        'HOST':'atsystem.herokuapp.com',
+        'HOST':'atssystem.herokuapp.com',
         'PORT':'3306',
     }
 }
